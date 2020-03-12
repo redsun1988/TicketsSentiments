@@ -1953,12 +1953,12 @@ I find Devexpress Great!",3,2019-12-12 19:00:21.480,2019-12-12 19:00:21.480,NULL
 4816,Which is very frustrating to say the least.,1,2019-12-12 19:21:57.110,2019-12-12 19:21:57.110,NULL,NULL
 4817,This is not DevExpress Quality and very disappointing.,1,2019-12-12 19:22:36.400,2019-12-12 19:22:36.400,NULL,NULL
 4818,"Kudos to the developer for this nice codesnippet. ",3,2019-12-23 11:36:25.460,2019-12-23 11:36:25.460,NULL,NULL
-4819,"Yaroslav
+4819,"
 I do not think you do understand my point. If you want to feel even more dissapointed please google XtraGrid setting CheckedComboBoxEdit items to checked state.
 The reason why it does not support is because there is a bug.
 Essentially I told you and John about the problem and what you replied with is to get it working YOU THE CUSTOMER have to subclass and fix it.
 You have exposed a DisplayMember which is completely redudant if nothing but string can be bound. And to make it worse CheckedListboxItem has a Value (of type object) AND a Description field.",0,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
-4820,"Dmitry.
+4820,".
 I knew that you guys were using the auto generated doc from comments technique (which is why MSDN documentation is also frequently useless).
 I do have a suggestion, though I know it's a waste of time to offer it. Hire professional technical writers and have them write something that's actually useful. Once upon a time, that's the way things were done in the business. However, these days it's more common to just do auto generated stuff like this and not worry about the business you lose from frustrated customers. Most of them never tell you why they take their business elsewhere. They just quietly leave.
 And yeah, I know you're just the messenger. 😉
@@ -1976,11 +1976,11 @@ Everytime I have to click it again and it's stable until no new installation is 
 So, I'm waiting for the new improved edition  
 Best Regards",0,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
 4823,"I'm not trying to beat a dead horse here, but as much as I appreciate what Victor provided, it is not a replacement for, or workaround to, a lack of a box plot. Your candlestick chart is much closer to a box plot. It just needs one more field instead of the four available. Since I believe I have source code rights in my license, I suppose I could hack something together from the Candlestick chart, but honestly you all are better programmers than I am so I'd rather you do it and then we can all take advantage of it.",1,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
-4824,"Hello Dmitry,  
+4824,"Hello ,  
 I made several post related to this on the already discussed questions but I haven't heard back anything. Last week, I posted another support ticket asking for a deadline on the ""fix"" for this issue but I was asked to describe the issue again. Once again, I am describing the issue we have with a sample project. Please look at the text truncating issue. Once you run the report in the sample project, on top of page 2 you will see several ""dots/truncated lines"". This is really a very high priority for us. Please analyze the issue and update me on the timeline when this issue will be fixed. If it will take time, suggest us a considerable workaround that will work for this issue. I request you to give me a direct solution to this problem instead of referring me to another support tickets. It's becomes really confusing looking at other support tickets which have references to other support tickets where eventually the original issue is side tracked. Please keep your responses specific to this issue and within this ticket for my better understanding. Thank you so much.",0,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
 4825,"THANK YOU.  
 You are 100% correct about PIDC instead of IDC (this is embarassing \- you know my code better than me!!!)",4,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
-4826,"Hi, Dmitry.  
+4826,"Hi, .  
 Thanks for the reply. While examples can be useful, what I was asking for was the architectural documentation of the report designer control that describes its various aspects and how to use it at a programmatic level.  
 I assume that, like most of your controls, you simply don't have any documentation beyond the rather limited ""Class.MemberName \- this is the Member Name (yeah, no kidding)"" class level documentation that tells you what kind of screw it is but not how the overall unit is assembled.  
 I do appreciate the help and will look at the examples.  
@@ -1999,21 +1999,58 @@ Thanks very much,
 Chris",0,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
 4828,"Did you try the RealTimeDataSource?  
 [http://www.devexpress.com/Support/Center/Question/Details/Q285998](http://www.devexpress.com/Support/Center/Question/Details/Q285998)",2,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
-4829,"Hello Michael.  
+4829,"Hello .  
 Thank you very much for your quick reply.  
 It is aptest for my problem!",4,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
 4830,"Hello Alexander  
 This is exactly what I wanted to have.  
 Thank you very much !  
 Norbert",3,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
-4831,"Hi, Helen,  
+4831,"Hi, ,  
 Thanks very much.  
 Your approach works very well! You are so helpful. Thanks again.",3,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
-4832,"Thank you very much for your help Brendon!  
+4832,"Thank you very much for your help !  
 That is exactly what I was looking for!",3,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
-4833,"Thank you Svetlana that makes sense and now works. Many thanks for your help as always",4,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
-4834,"Thanks very much Alex.  
+4833,"Thank you  that makes sense and now works. Many thanks for your help as always",4,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
+4834,"Thanks very much .  
 Run speed and ok!  
 You are the best...",3,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
 4835,"This was exactly what i was looking for.  
-Thank you Yulia for your help.",3,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
+Thank you  for your help.",3,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,2018-12-02 00:00:00.000,8
+4839,"[http://documentation.devexpress.com/#Xaf/CustomDocument3183](http://documentation.devexpress.com/#Xaf/CustomDocument3183)  
+should give you a direction...  
+",2
+4840,I have found my answer here: [https://help.devexpress.com/#Silverlight/CustomDocument6234](https://help.devexpress.com/#Silverlight/CustomDocument6234),2
+4841,"hi please give this issue to Dennis since he has a previous  simmilar previous one  
+  
+following this tutotial [http://documentation.devexpress.com/#xaf/CustomDocument2741](http://documentation.devexpress.com/#xaf/CustomDocument2741)  
+  
+I got simmilar problewm context submenu not showing items  **see video.** ..C:\Users\raul\Documents\C\_\_Users\_raul\_Documents\_2014\-01\-09\_1651.swf\_2014\-01\-09\_1655.swf",2
+4842,"Hi ,  
+That was what I was missing \- now it's working and I can move forward with my testing.  
+Thank you for helping me.  
+Regards,  
+",3
+4843,"Hi   
+Thank you for your response.  
+I looked in my computer. I don't have this spesific folder.  
+I only have this : C:\Program Files (x86)\DevExpress\DXperience 12.2\Sources\DevExpress.ExpressApp\",2
+4844," We are very disappointed that this stopped working in version 12.2.6. This functionality worked fine in all releases of version 12.1.\* and in all releases of 12.2.\* until the current release. We have a substantial amount of code that depends on this functionality and it will take significant effort to make the changes you are requesting.  
+We consider this a bug and hope you will reconsider fixing it soon.  
+Kenny",0
+4845,"Thank you  I'll post the solution if I proceed & succeed :)  
+May the New Year bring you happiness and good fortune",3
+4846,Thnak you for your example  It seems to be a good start for my scenario.,3
+4847,"Thanks , my project can't upgrade to .NET Framework 4.0,due to others reason .  
+Is there any solution to support just like Hotfix for DevExpress 12.5.  
+We appreicated DevExpress Support!",2
+4848,"I have already worked with Devexpress and XAF about 2 years ago. Now i have a new job and want to convice my new boss from devexpress.  
+I have started with evaluation about a week ago. Now i would like to present my first App. I think our purchasing Department should contact you soon.",3
+4849,"Wow, I've been using Telerik for ASP.Net for over 8 years.  
+I decided on DevExtreme because I was not happy with their Visual Studio integration.  
+But I have to say, not only is your product better, but your support is outstanding compared to Telerik.  
+It takes at the minimum, 24 hours to get a response from them.  
+Even with a paid subscription and paid support, they never respond as fast as you guys have!  
+Thanks !",4
+4850,"I  am not talking about the Y axis( grades) i an talking about the x axis(student names)  
+what should i use?",2
