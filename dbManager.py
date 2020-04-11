@@ -54,7 +54,7 @@ class dbManager:
         WHERE
 		[Users].[IsEmployee] = 0
 
-        ORDER BY [Posts].[Modified]
+        ORDER BY [Posts].[Modified] DESC 
         OFFSET %d ROWS
         FETCH NEXT %d ROWS ONLY
         """ % (skip, take)

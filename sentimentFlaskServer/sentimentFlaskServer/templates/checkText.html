@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DevExtreme Demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.2/jszip.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/19.2.6/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/19.2.6/css/dx.light.css" />
+    <script src="https://cdn3.devexpress.com/jslib/19.2.6/js/dx.all.js"></script>
+    <!--
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    -->
+</head>
+<body class="dx-viewport">
+        <script>
+            function getClassName(classID) {
+                if (classID == 0)
+                    return "neutral";
+                if (classID == -1)
+                    return "bad";
+                if (classID == 1)
+                    return "good";
+                return "unknown class";
+            }
+
+            url = "http://KONYAYEV-W8-NB.corp.devexpress.com:5006/validateText"
+            $(function(){
+                $("#textArea").dxTextArea({
+                    height: 90,
+                    placeholder: "pass your text here"
+                });
+                $("#button").dxButton({
+                    text: "Check text",
+                    onClick: function() {
+                        var text = $("#textArea")
+                            .dxTextArea("instance")
+                            .option("value");
+                        fetch(url, {
+                            method: "POST",
+                            body: JSON.stringify({
+                                text : text
+                            })
+                        })
+                        .then(response => response.json()
+                        .then(data => {
+                            var textClass = getClassName(data.class);
+
+                            $("#result").text("Text is classified as "
+                            + textClass
+                            + " confidence is " 
+                            + data.confidence);
+                        }))
+                    }
+                });
+            });
+        </script>
+
+        <h1>Submit the text you are interested in and press the button</h1>
+        <h2>The server will try to evaluate if the text is bad, neutral or good</h2>
+        <div class="demo-container">
+            <div id="result"></div>
+            <div id="textArea"></div>
+            <div id="button"></div>
+        </div>
+</body>
+</html>
